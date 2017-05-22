@@ -8,6 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="search.css">
+	<link rel="stylesheet" href="youtube.css">
 </head>
 <body>
 	<div class="container-fluid">
@@ -47,8 +48,10 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="card text-center" style="margin-bottom:15px">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe src="https://www.youtube.com/embed/a6-1Rv3yGyU?rel=0"></iframe>
+					<div class="wrapper">
+						<div class="youtube" data-embed="a6-1Rv3yGyU">
+							<div class="play-button"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -58,4 +61,5 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="search.js"></script>
+	<script src="youtube.js"></script>
 </body>
